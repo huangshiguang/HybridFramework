@@ -1,0 +1,1184 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		191998DD1DE43512005A2780 /* Resource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 191998DC1DE43512005A2780 /* Resource.bundle */; };
+		191998DE1DE43521005A2780 /* Resource.bundle in CopyFiles */ = {isa = PBXBuildFile; fileRef = 191998DC1DE43512005A2780 /* Resource.bundle */; };
+		191998E11DE4379A005A2780 /* takePhoto@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 191998DF1DE4379A005A2780 /* takePhoto@2x.png */; };
+		191998E21DE4379A005A2780 /* takePhoto@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 191998E01DE4379A005A2780 /* takePhoto@3x.png */; };
+		191998E31DE43840005A2780 /* Resource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 191998DC1DE43512005A2780 /* Resource.bundle */; };
+		19203BA31DDEFB7500359CC7 /* CDCameraWidget.m in Sources */ = {isa = PBXBuildFile; fileRef = 19203BA21DDEFB7500359CC7 /* CDCameraWidget.m */; };
+		19203BD11DDEFDD700359CC7 /* CDCameraOverlyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 19203BA71DDEFDD700359CC7 /* CDCameraOverlyView.m */; };
+		19203BD21DDEFDD700359CC7 /* CDCameraPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19203BA91DDEFDD700359CC7 /* CDCameraPreviewController.m */; };
+		19203BD31DDEFDD700359CC7 /* CDCustomCameraController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19203BAB1DDEFDD700359CC7 /* CDCustomCameraController.m */; };
+		19203BD41DDEFDD700359CC7 /* CDCustomCameraMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 19203BAD1DDEFDD700359CC7 /* CDCustomCameraMode.m */; };
+		19203BD61DDEFDD700359CC7 /* CDCameraOperatorController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19203BB31DDEFDD700359CC7 /* CDCameraOperatorController.m */; };
+		19203BFC1DDEFE3C00359CC7 /* CDCameraOperatorController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19203BE41DDEFE3C00359CC7 /* CDCameraOperatorController.m */; };
+		19203BFD1DDEFE3D00359CC7 /* LLSimpleCamera+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 19203BF01DDEFE3C00359CC7 /* LLSimpleCamera+Helper.m */; };
+		19203BFE1DDEFE3D00359CC7 /* LLSimpleCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 19203BF21DDEFE3C00359CC7 /* LLSimpleCamera.m */; };
+		19203BFF1DDEFE3D00359CC7 /* UIImage+FixOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 19203BF41DDEFE3C00359CC7 /* UIImage+FixOrientation.m */; };
+		19203C001DDEFE3D00359CC7 /* UIImage+Crop.m in Sources */ = {isa = PBXBuildFile; fileRef = 19203BF71DDEFE3C00359CC7 /* UIImage+Crop.m */; };
+		19203C011DDEFE3D00359CC7 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 19203BF91DDEFE3C00359CC7 /* UIImage+Resize.m */; };
+		19203C021DDEFE3D00359CC7 /* ViewUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 19203BFB1DDEFE3C00359CC7 /* ViewUtils.m */; };
+		19203C051DDEFE9800359CC7 /* UIImage+CredooSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 19203C041DDEFE9800359CC7 /* UIImage+CredooSupport.m */; };
+		193B67251DEBCA5D00328B9B /* CDAlertWidget.h in Headers */ = {isa = PBXBuildFile; fileRef = 193B67231DEBCA5D00328B9B /* CDAlertWidget.h */; };
+		193B67261DEBCA5D00328B9B /* CDAlertWidget.m in Sources */ = {isa = PBXBuildFile; fileRef = 193B67241DEBCA5D00328B9B /* CDAlertWidget.m */; };
+		194E292E1DEBFC3B00AA659C /* CDAlertDTO.h in Headers */ = {isa = PBXBuildFile; fileRef = 194E292C1DEBFC3B00AA659C /* CDAlertDTO.h */; };
+		194E292F1DEBFC3B00AA659C /* CDAlertDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = 194E292D1DEBFC3B00AA659C /* CDAlertDTO.m */; };
+		194E29381DEC027200AA659C /* CDAlertDTO.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 194E292C1DEBFC3B00AA659C /* CDAlertDTO.h */; };
+		194E293A1DEC027300AA659C /* CDAlertWidget.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 193B67231DEBCA5D00328B9B /* CDAlertWidget.h */; };
+		197640F81DE2935D006A25DC /* CDBaseDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = 197640F71DE2935D006A25DC /* CDBaseDTO.m */; };
+		197640FB1DE29379006A25DC /* CDCameraStyleDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = 197640FA1DE29379006A25DC /* CDCameraStyleDTO.m */; };
+		197641051DE2D29B006A25DC /* camera-flash.png in Resources */ = {isa = PBXBuildFile; fileRef = 19203BE81DDEFE3C00359CC7 /* camera-flash.png */; };
+		197641061DE2D29B006A25DC /* camera-flash@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 19203BE91DDEFE3C00359CC7 /* camera-flash@2x.png */; };
+		197641071DE2D29B006A25DC /* camera-switch.png in Resources */ = {isa = PBXBuildFile; fileRef = 19203BEA1DDEFE3C00359CC7 /* camera-switch.png */; };
+		197641081DE2D29B006A25DC /* camera-switch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 19203BEB1DDEFE3C00359CC7 /* camera-switch@2x.png */; };
+		197641091DE2D29B006A25DC /* cancel.png in Resources */ = {isa = PBXBuildFile; fileRef = 19203BEC1DDEFE3C00359CC7 /* cancel.png */; };
+		1976410A1DE2D29B006A25DC /* cancel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 19203BED1DDEFE3C00359CC7 /* cancel@2x.png */; };
+		1976410B1DE2D29B006A25DC /* cancel@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 19203BEE1DDEFE3C00359CC7 /* cancel@3x.png */; };
+		19AEA24B1DE2EA4B00F423A1 /* CDButtonStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 19AEA24A1DE2EA4B00F423A1 /* CDButtonStyle.m */; };
+		19AEA24F1DE2EA6A00F423A1 /* CDViewStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 19AEA24E1DE2EA6A00F423A1 /* CDViewStyle.m */; };
+		19AEA2521DE2FE5A00F423A1 /* CDCameraButtonStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 19AEA2511DE2FE5A00F423A1 /* CDCameraButtonStyle.m */; };
+		19CA61931DDC4B17005FE1B7 /* CDFileDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CA618C1DDC4B17005FE1B7 /* CDFileDTO.m */; };
+		19CA619E1DDC4B8F005FE1B7 /* CDRemoveFileContainerAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CA619A1DDC4B8F005FE1B7 /* CDRemoveFileContainerAPI.m */; };
+		19CA619F1DDC4B8F005FE1B7 /* CDSaveFileContainerAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CA619C1DDC4B8F005FE1B7 /* CDSaveFileContainerAPI.m */; };
+		19E3701E1DDE985400248026 /* CDBaseContainerAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E3701D1DDE985400248026 /* CDBaseContainerAPI.m */; };
+		19E370221DDE986E00248026 /* CDBaseWidget.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E370211DDE986E00248026 /* CDBaseWidget.m */; };
+		19E370281DDEA0EA00248026 /* CDGetFileContainerAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E370271DDEA0EA00248026 /* CDGetFileContainerAPI.m */; };
+		51367B22CBB51CFF2807149C /* libPods-Sample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B9674FFE24C392F7F890D994 /* libPods-Sample.a */; };
+		51AAEC4F1DDF189400939E23 /* CDGetHomePageContainerAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 51AAEC4C1DDF189400939E23 /* CDGetHomePageContainerAPI.m */; };
+		51AAEC501DDF189400939E23 /* CDSetHomePageContainerAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 51AAEC4E1DDF189400939E23 /* CDSetHomePageContainerAPI.m */; };
+		6C23358D1DDE1E6A00B42708 /* CustomerVIewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C23358C1DDE1E6A00B42708 /* CustomerVIewController.m */; };
+		6C60FD471DDF42AE0062CA60 /* CDLoggerContainerAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C60FD461DDF42AE0062CA60 /* CDLoggerContainerAPI.m */; };
+		6C60FD481DDF46940062CA60 /* libCredooHybridFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CAB0A06E1DD3142E00325A5B /* libCredooHybridFramework.a */; };
+		6C99F27B1DE04AF4003F7CEF /* AddressBookContainerAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C99F27A1DE04AF4003F7CEF /* AddressBookContainerAPI.m */; };
+		6C99F27E1DE04C86003F7CEF /* CDNavTitleWidget.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C99F27D1DE04C86003F7CEF /* CDNavTitleWidget.m */; };
+		6C99F2851DE051CB003F7CEF /* CDHybridBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C99F2841DE051CB003F7CEF /* CDHybridBaseViewController.m */; };
+		A4B463DA1DE29FB8006B746E /* hybrid in Resources */ = {isa = PBXBuildFile; fileRef = A4B463D91DE29FB8006B746E /* hybrid */; };
+		A4EB56F71DDF15AC0025F79C /* AddressBookWidget.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EB56F61DDF15AC0025F79C /* AddressBookWidget.m */; };
+		CA3DA1921DDC271200A855EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA3DA1911DDC271200A855EF /* main.m */; };
+		CA3DA1951DDC271200A855EF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA3DA1941DDC271200A855EF /* AppDelegate.m */; };
+		CA3DA1981DDC271200A855EF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA3DA1971DDC271200A855EF /* ViewController.m */; };
+		CA3DA19B1DDC271200A855EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA3DA1991DDC271200A855EF /* Main.storyboard */; };
+		CA3DA19D1DDC271200A855EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA3DA19C1DDC271200A855EF /* Assets.xcassets */; };
+		CA45A0BF1DE423DC00CF11C4 /* CredooHybridFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = CAB0A0711DD3142E00325A5B /* CredooHybridFramework.h */; };
+		CA45A0C01DE423DC00CF11C4 /* CredooHybridConstant.h in Headers */ = {isa = PBXBuildFile; fileRef = 19CA61A71DDD548E005FE1B7 /* CredooHybridConstant.h */; };
+		CA45A0C21DE423DC00CF11C4 /* LLSimpleCamera+Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 19203BEF1DDEFE3C00359CC7 /* LLSimpleCamera+Helper.h */; };
+		CA45A0C31DE423DC00CF11C4 /* LLSimpleCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = 19203BF11DDEFE3C00359CC7 /* LLSimpleCamera.h */; };
+		CA45A0C41DE423DC00CF11C4 /* UIImage+FixOrientation.h in Headers */ = {isa = PBXBuildFile; fileRef = 19203BF31DDEFE3C00359CC7 /* UIImage+FixOrientation.h */; };
+		CA45A0C51DE423DC00CF11C4 /* UIImage+Crop.h in Headers */ = {isa = PBXBuildFile; fileRef = 19203BF61DDEFE3C00359CC7 /* UIImage+Crop.h */; };
+		CA45A0C61DE423DC00CF11C4 /* UIImage+Resize.h in Headers */ = {isa = PBXBuildFile; fileRef = 19203BF81DDEFE3C00359CC7 /* UIImage+Resize.h */; };
+		CA45A0C71DE423DC00CF11C4 /* ViewUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 19203BFA1DDEFE3C00359CC7 /* ViewUtils.h */; };
+		CA45A0C81DE423DC00CF11C4 /* CDCustomCameraController.h in Headers */ = {isa = PBXBuildFile; fileRef = 19203BAA1DDEFDD700359CC7 /* CDCustomCameraController.h */; };
+		CA45A0C91DE423DC00CF11C4 /* CDCameraOverlyView.h in Headers */ = {isa = PBXBuildFile; fileRef = 19203BA61DDEFDD700359CC7 /* CDCameraOverlyView.h */; };
+		CA45A0CA1DE423DC00CF11C4 /* CDCameraPreviewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 19203BA81DDEFDD700359CC7 /* CDCameraPreviewController.h */; };
+		CA45A0CB1DE423DC00CF11C4 /* CDCustomCameraMode.h in Headers */ = {isa = PBXBuildFile; fileRef = 19203BAC1DDEFDD700359CC7 /* CDCustomCameraMode.h */; };
+		CA45A0CE1DE423DC00CF11C4 /* UIImage+CredooSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 19203C031DDEFE9800359CC7 /* UIImage+CredooSupport.h */; };
+		CA45A0CF1DE423DC00CF11C4 /* CDViewStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 19AEA24D1DE2EA6A00F423A1 /* CDViewStyle.h */; };
+		CA45A0D01DE423DC00CF11C4 /* CDButtonStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 19AEA2491DE2EA4B00F423A1 /* CDButtonStyle.h */; };
+		CA45A0D11DE423DC00CF11C4 /* CDCameraButtonStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 19AEA2501DE2FE5A00F423A1 /* CDCameraButtonStyle.h */; };
+		CA45A0D21DE423DC00CF11C4 /* CDBaseDTO.h in Headers */ = {isa = PBXBuildFile; fileRef = 197640F61DE2935D006A25DC /* CDBaseDTO.h */; };
+		CA45A0D31DE423DC00CF11C4 /* CDCameraStyleDTO.h in Headers */ = {isa = PBXBuildFile; fileRef = 197640F91DE29379006A25DC /* CDCameraStyleDTO.h */; };
+		CA45A0D41DE423DC00CF11C4 /* CDFileDTO.h in Headers */ = {isa = PBXBuildFile; fileRef = 19CA618B1DDC4B17005FE1B7 /* CDFileDTO.h */; };
+		CA45A0D51DE423DC00CF11C4 /* AddressBookContainerAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C99F2791DE04AF4003F7CEF /* AddressBookContainerAPI.h */; };
+		CA45A0D61DE423DC00CF11C4 /* CDLoggerContainerAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C60FD451DDF42AE0062CA60 /* CDLoggerContainerAPI.h */; };
+		CA45A0D71DE423DC00CF11C4 /* CDGetHomePageContainerAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 51AAEC4B1DDF189400939E23 /* CDGetHomePageContainerAPI.h */; };
+		CA45A0D81DE423DC00CF11C4 /* CDSetHomePageContainerAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 51AAEC4D1DDF189400939E23 /* CDSetHomePageContainerAPI.h */; };
+		CA45A0D91DE423DC00CF11C4 /* CDBaseContainerAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 19E3701C1DDE985400248026 /* CDBaseContainerAPI.h */; };
+		CA45A0DA1DE423DC00CF11C4 /* CDRemoveFileContainerAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 19CA61991DDC4B8F005FE1B7 /* CDRemoveFileContainerAPI.h */; };
+		CA45A0DB1DE423DC00CF11C4 /* CDSaveFileContainerAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 19CA619B1DDC4B8F005FE1B7 /* CDSaveFileContainerAPI.h */; };
+		CA45A0DC1DE423DC00CF11C4 /* CDGetFileContainerAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 19E370261DDEA0EA00248026 /* CDGetFileContainerAPI.h */; };
+		CA45A0DD1DE423DC00CF11C4 /* CDBaseWidget.h in Headers */ = {isa = PBXBuildFile; fileRef = 19E370201DDE986E00248026 /* CDBaseWidget.h */; };
+		CA45A0DE1DE423DC00CF11C4 /* AddressBookWidget.h in Headers */ = {isa = PBXBuildFile; fileRef = A4EB56F51DDF15AC0025F79C /* AddressBookWidget.h */; };
+		CA45A0DF1DE423DC00CF11C4 /* CDCameraWidget.h in Headers */ = {isa = PBXBuildFile; fileRef = 19203BA11DDEFB7500359CC7 /* CDCameraWidget.h */; };
+		CA45A0E01DE423DC00CF11C4 /* CDNavTitleWidget.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C99F27C1DE04C86003F7CEF /* CDNavTitleWidget.h */; };
+		CA45A0E11DE423DC00CF11C4 /* CDHybridBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C99F2831DE051CB003F7CEF /* CDHybridBaseViewController.h */; };
+		CA45A0E21DE424AB00CF11C4 /* CredooHybridConstant.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 19CA61A71DDD548E005FE1B7 /* CredooHybridConstant.h */; };
+		CA45A0E31DE424AB00CF11C4 /* CDCameraOperatorController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 19203BE31DDEFE3C00359CC7 /* CDCameraOperatorController.h */; };
+		CA45A0E41DE424AB00CF11C4 /* LLSimpleCamera+Helper.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 19203BEF1DDEFE3C00359CC7 /* LLSimpleCamera+Helper.h */; };
+		CA45A0E51DE424AB00CF11C4 /* LLSimpleCamera.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 19203BF11DDEFE3C00359CC7 /* LLSimpleCamera.h */; };
+		CA45A0E61DE424AB00CF11C4 /* UIImage+FixOrientation.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 19203BF31DDEFE3C00359CC7 /* UIImage+FixOrientation.h */; };
+		CA45A0E71DE424AB00CF11C4 /* UIImage+Crop.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 19203BF61DDEFE3C00359CC7 /* UIImage+Crop.h */; };
+		CA45A0E81DE424AB00CF11C4 /* UIImage+Resize.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 19203BF81DDEFE3C00359CC7 /* UIImage+Resize.h */; };
+		CA45A0E91DE424AB00CF11C4 /* ViewUtils.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 19203BFA1DDEFE3C00359CC7 /* ViewUtils.h */; };
+		CA45A0EA1DE424AB00CF11C4 /* CDCustomCameraController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 19203BAA1DDEFDD700359CC7 /* CDCustomCameraController.h */; };
+		CA45A0EB1DE424AB00CF11C4 /* CDCameraOverlyView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 19203BA61DDEFDD700359CC7 /* CDCameraOverlyView.h */; };
+		CA45A0EC1DE424AB00CF11C4 /* CDCameraPreviewController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 19203BA81DDEFDD700359CC7 /* CDCameraPreviewController.h */; };
+		CA45A0ED1DE424AB00CF11C4 /* CDCustomCameraMode.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 19203BAC1DDEFDD700359CC7 /* CDCustomCameraMode.h */; };
+		CA45A0EF1DE424AB00CF11C4 /* CDCameraOperatorController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 19203BB21DDEFDD700359CC7 /* CDCameraOperatorController.h */; };
+		CA45A0F01DE424AB00CF11C4 /* UIImage+CredooSupport.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 19203C031DDEFE9800359CC7 /* UIImage+CredooSupport.h */; };
+		CA45A0F11DE424AB00CF11C4 /* CDViewStyle.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 19AEA24D1DE2EA6A00F423A1 /* CDViewStyle.h */; };
+		CA45A0F21DE424AB00CF11C4 /* CDButtonStyle.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 19AEA2491DE2EA4B00F423A1 /* CDButtonStyle.h */; };
+		CA45A0F31DE424AB00CF11C4 /* CDCameraButtonStyle.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 19AEA2501DE2FE5A00F423A1 /* CDCameraButtonStyle.h */; };
+		CA45A0F41DE424AB00CF11C4 /* CDBaseDTO.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 197640F61DE2935D006A25DC /* CDBaseDTO.h */; };
+		CA45A0F51DE424AB00CF11C4 /* CDCameraStyleDTO.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 197640F91DE29379006A25DC /* CDCameraStyleDTO.h */; };
+		CA45A0F61DE424AB00CF11C4 /* CDFileDTO.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 19CA618B1DDC4B17005FE1B7 /* CDFileDTO.h */; };
+		CA45A0F71DE424AB00CF11C4 /* AddressBookContainerAPI.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6C99F2791DE04AF4003F7CEF /* AddressBookContainerAPI.h */; };
+		CA45A0F81DE424AB00CF11C4 /* CDLoggerContainerAPI.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6C60FD451DDF42AE0062CA60 /* CDLoggerContainerAPI.h */; };
+		CA45A0F91DE424AB00CF11C4 /* CDGetHomePageContainerAPI.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 51AAEC4B1DDF189400939E23 /* CDGetHomePageContainerAPI.h */; };
+		CA45A0FA1DE424AB00CF11C4 /* CDSetHomePageContainerAPI.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 51AAEC4D1DDF189400939E23 /* CDSetHomePageContainerAPI.h */; };
+		CA45A0FB1DE424AB00CF11C4 /* CDBaseContainerAPI.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 19E3701C1DDE985400248026 /* CDBaseContainerAPI.h */; };
+		CA45A0FC1DE424AB00CF11C4 /* CDRemoveFileContainerAPI.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 19CA61991DDC4B8F005FE1B7 /* CDRemoveFileContainerAPI.h */; };
+		CA45A0FD1DE424AB00CF11C4 /* CDSaveFileContainerAPI.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 19CA619B1DDC4B8F005FE1B7 /* CDSaveFileContainerAPI.h */; };
+		CA45A0FE1DE424AB00CF11C4 /* CDGetFileContainerAPI.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 19E370261DDEA0EA00248026 /* CDGetFileContainerAPI.h */; };
+		CA45A0FF1DE424AB00CF11C4 /* CDBaseWidget.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 19E370201DDE986E00248026 /* CDBaseWidget.h */; };
+		CA45A1001DE424AB00CF11C4 /* AddressBookWidget.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A4EB56F51DDF15AC0025F79C /* AddressBookWidget.h */; };
+		CA45A1011DE424AB00CF11C4 /* CDCameraWidget.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 19203BA11DDEFB7500359CC7 /* CDCameraWidget.h */; };
+		CA45A1021DE424AB00CF11C4 /* CDNavTitleWidget.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6C99F27C1DE04C86003F7CEF /* CDNavTitleWidget.h */; };
+		CA45A1031DE424AB00CF11C4 /* CDHybridBaseViewController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6C99F2831DE051CB003F7CEF /* CDHybridBaseViewController.h */; };
+		CA45A1041DE424AB00CF11C4 /* AppDelegate.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CA3DA1931DDC271200A855EF /* AppDelegate.h */; };
+		CA45A1051DE424AB00CF11C4 /* ViewController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CA3DA1961DDC271200A855EF /* ViewController.h */; };
+		CA45A1061DE424AB00CF11C4 /* CustomerVIewController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6C23358B1DDE1E6A00B42708 /* CustomerVIewController.h */; };
+		CAB0A0741DD3142E00325A5B /* CredooHybridFramework.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CAB0A0711DD3142E00325A5B /* CredooHybridFramework.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA3DA1A51DDC272600A855EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAB0A0661DD3142E00325A5B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAB0A06D1DD3142E00325A5B;
+			remoteInfo = CredooHybridFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CAB0A06C1DD3142E00325A5B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				194E29381DEC027200AA659C /* CDAlertDTO.h in CopyFiles */,
+				194E293A1DEC027300AA659C /* CDAlertWidget.h in CopyFiles */,
+				191998DE1DE43521005A2780 /* Resource.bundle in CopyFiles */,
+				CA45A0E21DE424AB00CF11C4 /* CredooHybridConstant.h in CopyFiles */,
+				CA45A0E31DE424AB00CF11C4 /* CDCameraOperatorController.h in CopyFiles */,
+				CA45A0E41DE424AB00CF11C4 /* LLSimpleCamera+Helper.h in CopyFiles */,
+				CA45A0E51DE424AB00CF11C4 /* LLSimpleCamera.h in CopyFiles */,
+				CA45A0E61DE424AB00CF11C4 /* UIImage+FixOrientation.h in CopyFiles */,
+				CA45A0E71DE424AB00CF11C4 /* UIImage+Crop.h in CopyFiles */,
+				CA45A0E81DE424AB00CF11C4 /* UIImage+Resize.h in CopyFiles */,
+				CA45A0E91DE424AB00CF11C4 /* ViewUtils.h in CopyFiles */,
+				CA45A0EA1DE424AB00CF11C4 /* CDCustomCameraController.h in CopyFiles */,
+				CA45A0EB1DE424AB00CF11C4 /* CDCameraOverlyView.h in CopyFiles */,
+				CA45A0EC1DE424AB00CF11C4 /* CDCameraPreviewController.h in CopyFiles */,
+				CA45A0ED1DE424AB00CF11C4 /* CDCustomCameraMode.h in CopyFiles */,
+				CA45A0EF1DE424AB00CF11C4 /* CDCameraOperatorController.h in CopyFiles */,
+				CA45A0F01DE424AB00CF11C4 /* UIImage+CredooSupport.h in CopyFiles */,
+				CA45A0F11DE424AB00CF11C4 /* CDViewStyle.h in CopyFiles */,
+				CA45A0F21DE424AB00CF11C4 /* CDButtonStyle.h in CopyFiles */,
+				CA45A0F31DE424AB00CF11C4 /* CDCameraButtonStyle.h in CopyFiles */,
+				CA45A0F41DE424AB00CF11C4 /* CDBaseDTO.h in CopyFiles */,
+				CA45A0F51DE424AB00CF11C4 /* CDCameraStyleDTO.h in CopyFiles */,
+				CA45A0F61DE424AB00CF11C4 /* CDFileDTO.h in CopyFiles */,
+				CA45A0F71DE424AB00CF11C4 /* AddressBookContainerAPI.h in CopyFiles */,
+				CA45A0F81DE424AB00CF11C4 /* CDLoggerContainerAPI.h in CopyFiles */,
+				CA45A0F91DE424AB00CF11C4 /* CDGetHomePageContainerAPI.h in CopyFiles */,
+				CA45A0FA1DE424AB00CF11C4 /* CDSetHomePageContainerAPI.h in CopyFiles */,
+				CA45A0FB1DE424AB00CF11C4 /* CDBaseContainerAPI.h in CopyFiles */,
+				CA45A0FC1DE424AB00CF11C4 /* CDRemoveFileContainerAPI.h in CopyFiles */,
+				CA45A0FD1DE424AB00CF11C4 /* CDSaveFileContainerAPI.h in CopyFiles */,
+				CA45A0FE1DE424AB00CF11C4 /* CDGetFileContainerAPI.h in CopyFiles */,
+				CA45A0FF1DE424AB00CF11C4 /* CDBaseWidget.h in CopyFiles */,
+				CA45A1001DE424AB00CF11C4 /* AddressBookWidget.h in CopyFiles */,
+				CA45A1011DE424AB00CF11C4 /* CDCameraWidget.h in CopyFiles */,
+				CA45A1021DE424AB00CF11C4 /* CDNavTitleWidget.h in CopyFiles */,
+				CA45A1031DE424AB00CF11C4 /* CDHybridBaseViewController.h in CopyFiles */,
+				CA45A1041DE424AB00CF11C4 /* AppDelegate.h in CopyFiles */,
+				CA45A1051DE424AB00CF11C4 /* ViewController.h in CopyFiles */,
+				CA45A1061DE424AB00CF11C4 /* CustomerVIewController.h in CopyFiles */,
+				CAB0A0741DD3142E00325A5B /* CredooHybridFramework.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		15FEB1074386C029AE47E410 /* Pods-Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sample/Pods-Sample.debug.xcconfig"; sourceTree = "<group>"; };
+		191998D81DE434A7005A2780 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		191998DC1DE43512005A2780 /* Resource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Resource.bundle; sourceTree = "<group>"; };
+		191998DF1DE4379A005A2780 /* takePhoto@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "takePhoto@2x.png"; path = "Resource.bundle/takePhoto@2x.png"; sourceTree = "<group>"; };
+		191998E01DE4379A005A2780 /* takePhoto@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "takePhoto@3x.png"; path = "Resource.bundle/takePhoto@3x.png"; sourceTree = "<group>"; };
+		19203BA11DDEFB7500359CC7 /* CDCameraWidget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDCameraWidget.h; sourceTree = "<group>"; };
+		19203BA21DDEFB7500359CC7 /* CDCameraWidget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDCameraWidget.m; sourceTree = "<group>"; };
+		19203BA61DDEFDD700359CC7 /* CDCameraOverlyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDCameraOverlyView.h; sourceTree = "<group>"; };
+		19203BA71DDEFDD700359CC7 /* CDCameraOverlyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDCameraOverlyView.m; sourceTree = "<group>"; };
+		19203BA81DDEFDD700359CC7 /* CDCameraPreviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDCameraPreviewController.h; sourceTree = "<group>"; };
+		19203BA91DDEFDD700359CC7 /* CDCameraPreviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDCameraPreviewController.m; sourceTree = "<group>"; };
+		19203BAA1DDEFDD700359CC7 /* CDCustomCameraController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDCustomCameraController.h; sourceTree = "<group>"; };
+		19203BAB1DDEFDD700359CC7 /* CDCustomCameraController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDCustomCameraController.m; sourceTree = "<group>"; };
+		19203BAC1DDEFDD700359CC7 /* CDCustomCameraMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDCustomCameraMode.h; sourceTree = "<group>"; };
+		19203BAD1DDEFDD700359CC7 /* CDCustomCameraMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDCustomCameraMode.m; sourceTree = "<group>"; };
+		19203BB21DDEFDD700359CC7 /* CDCameraOperatorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDCameraOperatorController.h; sourceTree = "<group>"; };
+		19203BB31DDEFDD700359CC7 /* CDCameraOperatorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDCameraOperatorController.m; sourceTree = "<group>"; };
+		19203BE31DDEFE3C00359CC7 /* CDCameraOperatorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDCameraOperatorController.h; sourceTree = "<group>"; };
+		19203BE41DDEFE3C00359CC7 /* CDCameraOperatorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDCameraOperatorController.m; sourceTree = "<group>"; };
+		19203BE81DDEFE3C00359CC7 /* camera-flash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera-flash.png"; sourceTree = "<group>"; };
+		19203BE91DDEFE3C00359CC7 /* camera-flash@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera-flash@2x.png"; sourceTree = "<group>"; };
+		19203BEA1DDEFE3C00359CC7 /* camera-switch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera-switch.png"; sourceTree = "<group>"; };
+		19203BEB1DDEFE3C00359CC7 /* camera-switch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera-switch@2x.png"; sourceTree = "<group>"; };
+		19203BEC1DDEFE3C00359CC7 /* cancel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cancel.png; sourceTree = "<group>"; };
+		19203BED1DDEFE3C00359CC7 /* cancel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cancel@2x.png"; sourceTree = "<group>"; };
+		19203BEE1DDEFE3C00359CC7 /* cancel@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cancel@3x.png"; sourceTree = "<group>"; };
+		19203BEF1DDEFE3C00359CC7 /* LLSimpleCamera+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LLSimpleCamera+Helper.h"; sourceTree = "<group>"; };
+		19203BF01DDEFE3C00359CC7 /* LLSimpleCamera+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LLSimpleCamera+Helper.m"; sourceTree = "<group>"; };
+		19203BF11DDEFE3C00359CC7 /* LLSimpleCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLSimpleCamera.h; sourceTree = "<group>"; };
+		19203BF21DDEFE3C00359CC7 /* LLSimpleCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLSimpleCamera.m; sourceTree = "<group>"; };
+		19203BF31DDEFE3C00359CC7 /* UIImage+FixOrientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FixOrientation.h"; sourceTree = "<group>"; };
+		19203BF41DDEFE3C00359CC7 /* UIImage+FixOrientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FixOrientation.m"; sourceTree = "<group>"; };
+		19203BF61DDEFE3C00359CC7 /* UIImage+Crop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Crop.h"; sourceTree = "<group>"; };
+		19203BF71DDEFE3C00359CC7 /* UIImage+Crop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Crop.m"; sourceTree = "<group>"; };
+		19203BF81DDEFE3C00359CC7 /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
+		19203BF91DDEFE3C00359CC7 /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
+		19203BFA1DDEFE3C00359CC7 /* ViewUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewUtils.h; sourceTree = "<group>"; };
+		19203BFB1DDEFE3C00359CC7 /* ViewUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewUtils.m; sourceTree = "<group>"; };
+		19203C031DDEFE9800359CC7 /* UIImage+CredooSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CredooSupport.h"; sourceTree = "<group>"; };
+		19203C041DDEFE9800359CC7 /* UIImage+CredooSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CredooSupport.m"; sourceTree = "<group>"; };
+		193B67231DEBCA5D00328B9B /* CDAlertWidget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDAlertWidget.h; sourceTree = "<group>"; };
+		193B67241DEBCA5D00328B9B /* CDAlertWidget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDAlertWidget.m; sourceTree = "<group>"; };
+		194E292C1DEBFC3B00AA659C /* CDAlertDTO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDAlertDTO.h; sourceTree = "<group>"; };
+		194E292D1DEBFC3B00AA659C /* CDAlertDTO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDAlertDTO.m; sourceTree = "<group>"; };
+		197640F61DE2935D006A25DC /* CDBaseDTO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDBaseDTO.h; sourceTree = "<group>"; };
+		197640F71DE2935D006A25DC /* CDBaseDTO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDBaseDTO.m; sourceTree = "<group>"; };
+		197640F91DE29379006A25DC /* CDCameraStyleDTO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDCameraStyleDTO.h; sourceTree = "<group>"; };
+		197640FA1DE29379006A25DC /* CDCameraStyleDTO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDCameraStyleDTO.m; sourceTree = "<group>"; };
+		1976410D1DE2D4C2006A25DC /* Custom_camera_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Custom_camera_bg@2x.png"; sourceTree = "<group>"; };
+		19AEA2491DE2EA4B00F423A1 /* CDButtonStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDButtonStyle.h; sourceTree = "<group>"; };
+		19AEA24A1DE2EA4B00F423A1 /* CDButtonStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDButtonStyle.m; sourceTree = "<group>"; };
+		19AEA24D1DE2EA6A00F423A1 /* CDViewStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDViewStyle.h; sourceTree = "<group>"; };
+		19AEA24E1DE2EA6A00F423A1 /* CDViewStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDViewStyle.m; sourceTree = "<group>"; };
+		19AEA2501DE2FE5A00F423A1 /* CDCameraButtonStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDCameraButtonStyle.h; sourceTree = "<group>"; };
+		19AEA2511DE2FE5A00F423A1 /* CDCameraButtonStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDCameraButtonStyle.m; sourceTree = "<group>"; };
+		19CA618B1DDC4B17005FE1B7 /* CDFileDTO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDFileDTO.h; sourceTree = "<group>"; };
+		19CA618C1DDC4B17005FE1B7 /* CDFileDTO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDFileDTO.m; sourceTree = "<group>"; };
+		19CA61991DDC4B8F005FE1B7 /* CDRemoveFileContainerAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDRemoveFileContainerAPI.h; sourceTree = "<group>"; };
+		19CA619A1DDC4B8F005FE1B7 /* CDRemoveFileContainerAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDRemoveFileContainerAPI.m; sourceTree = "<group>"; };
+		19CA619B1DDC4B8F005FE1B7 /* CDSaveFileContainerAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDSaveFileContainerAPI.h; sourceTree = "<group>"; };
+		19CA619C1DDC4B8F005FE1B7 /* CDSaveFileContainerAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDSaveFileContainerAPI.m; sourceTree = "<group>"; };
+		19CA61A71DDD548E005FE1B7 /* CredooHybridConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CredooHybridConstant.h; sourceTree = "<group>"; };
+		19E3701C1DDE985400248026 /* CDBaseContainerAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDBaseContainerAPI.h; sourceTree = "<group>"; };
+		19E3701D1DDE985400248026 /* CDBaseContainerAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDBaseContainerAPI.m; sourceTree = "<group>"; };
+		19E370201DDE986E00248026 /* CDBaseWidget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDBaseWidget.h; sourceTree = "<group>"; };
+		19E370211DDE986E00248026 /* CDBaseWidget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDBaseWidget.m; sourceTree = "<group>"; };
+		19E370261DDEA0EA00248026 /* CDGetFileContainerAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDGetFileContainerAPI.h; sourceTree = "<group>"; };
+		19E370271DDEA0EA00248026 /* CDGetFileContainerAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDGetFileContainerAPI.m; sourceTree = "<group>"; };
+		26ACD1901FD46A165895BBE8 /* Pods-CredooHybridFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CredooHybridFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-CredooHybridFramework/Pods-CredooHybridFramework.release.xcconfig"; sourceTree = "<group>"; };
+		51AAEC4B1DDF189400939E23 /* CDGetHomePageContainerAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDGetHomePageContainerAPI.h; sourceTree = "<group>"; };
+		51AAEC4C1DDF189400939E23 /* CDGetHomePageContainerAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDGetHomePageContainerAPI.m; sourceTree = "<group>"; };
+		51AAEC4D1DDF189400939E23 /* CDSetHomePageContainerAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDSetHomePageContainerAPI.h; sourceTree = "<group>"; };
+		51AAEC4E1DDF189400939E23 /* CDSetHomePageContainerAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDSetHomePageContainerAPI.m; sourceTree = "<group>"; };
+		6C23358B1DDE1E6A00B42708 /* CustomerVIewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomerVIewController.h; sourceTree = "<group>"; };
+		6C23358C1DDE1E6A00B42708 /* CustomerVIewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomerVIewController.m; sourceTree = "<group>"; };
+		6C60FD451DDF42AE0062CA60 /* CDLoggerContainerAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDLoggerContainerAPI.h; sourceTree = "<group>"; };
+		6C60FD461DDF42AE0062CA60 /* CDLoggerContainerAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDLoggerContainerAPI.m; sourceTree = "<group>"; };
+		6C99F2791DE04AF4003F7CEF /* AddressBookContainerAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressBookContainerAPI.h; sourceTree = "<group>"; };
+		6C99F27A1DE04AF4003F7CEF /* AddressBookContainerAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressBookContainerAPI.m; sourceTree = "<group>"; };
+		6C99F27C1DE04C86003F7CEF /* CDNavTitleWidget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDNavTitleWidget.h; sourceTree = "<group>"; };
+		6C99F27D1DE04C86003F7CEF /* CDNavTitleWidget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDNavTitleWidget.m; sourceTree = "<group>"; };
+		6C99F2831DE051CB003F7CEF /* CDHybridBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDHybridBaseViewController.h; sourceTree = "<group>"; };
+		6C99F2841DE051CB003F7CEF /* CDHybridBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDHybridBaseViewController.m; sourceTree = "<group>"; };
+		974A2D9577FC7AF5F7F30571 /* Pods-Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sample.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sample/Pods-Sample.release.xcconfig"; sourceTree = "<group>"; };
+		9856B2E2B0700525A5C92E72 /* libPods-CredooHybridFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CredooHybridFramework.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4B463D91DE29FB8006B746E /* hybrid */ = {isa = PBXFileReference; lastKnownFileType = folder; name = hybrid; path = ../CredooHybridFramework/hybrid; sourceTree = "<group>"; };
+		A4EB56F51DDF15AC0025F79C /* AddressBookWidget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressBookWidget.h; sourceTree = "<group>"; };
+		A4EB56F61DDF15AC0025F79C /* AddressBookWidget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressBookWidget.m; sourceTree = "<group>"; };
+		B9674FFE24C392F7F890D994 /* libPods-Sample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Sample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA3DA18E1DDC271200A855EF /* Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA3DA1911DDC271200A855EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA3DA1931DDC271200A855EF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CA3DA1941DDC271200A855EF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CA3DA1961DDC271200A855EF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CA3DA1971DDC271200A855EF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CA3DA19A1DDC271200A855EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA3DA19C1DDC271200A855EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA3DA19F1DDC271200A855EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA3DA1A11DDC271200A855EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAB0A06E1DD3142E00325A5B /* libCredooHybridFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCredooHybridFramework.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAB0A0711DD3142E00325A5B /* CredooHybridFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CredooHybridFramework.h; sourceTree = "<group>"; };
+		EB320166BF6BBDCAEC8278B1 /* Pods-CredooHybridFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CredooHybridFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CredooHybridFramework/Pods-CredooHybridFramework.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA3DA18B1DDC271200A855EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C60FD481DDF46940062CA60 /* libCredooHybridFramework.a in Frameworks */,
+				51367B22CBB51CFF2807149C /* libPods-Sample.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAB0A06B1DD3142E00325A5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		191998D71DE434A7005A2780 /* CredooHybrid */ = {
+			isa = PBXGroup;
+			children = (
+				191998D81DE434A7005A2780 /* Info.plist */,
+			);
+			path = CredooHybrid;
+			sourceTree = "<group>";
+		};
+		19203BA41DDEFDD700359CC7 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				19203BA51DDEFDD700359CC7 /* CustomCamera */,
+				19203C031DDEFE9800359CC7 /* UIImage+CredooSupport.h */,
+				19203C041DDEFE9800359CC7 /* UIImage+CredooSupport.m */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		19203BA51DDEFDD700359CC7 /* CustomCamera */ = {
+			isa = PBXGroup;
+			children = (
+				19203BE21DDEFE3C00359CC7 /* Common */,
+				19203BE51DDEFE3C00359CC7 /* Vender */,
+				19203BAA1DDEFDD700359CC7 /* CDCustomCameraController.h */,
+				19203BAB1DDEFDD700359CC7 /* CDCustomCameraController.m */,
+				19203BA81DDEFDD700359CC7 /* CDCameraPreviewController.h */,
+				19203BA91DDEFDD700359CC7 /* CDCameraPreviewController.m */,
+				19203BAC1DDEFDD700359CC7 /* CDCustomCameraMode.h */,
+				19203BAD1DDEFDD700359CC7 /* CDCustomCameraMode.m */,
+				19203BA61DDEFDD700359CC7 /* CDCameraOverlyView.h */,
+				19203BA71DDEFDD700359CC7 /* CDCameraOverlyView.m */,
+				19203BB11DDEFDD700359CC7 /* Common */,
+			);
+			path = CustomCamera;
+			sourceTree = "<group>";
+		};
+		19203BB11DDEFDD700359CC7 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				19203BB21DDEFDD700359CC7 /* CDCameraOperatorController.h */,
+				19203BB31DDEFDD700359CC7 /* CDCameraOperatorController.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		19203BE21DDEFE3C00359CC7 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				19203BE31DDEFE3C00359CC7 /* CDCameraOperatorController.h */,
+				19203BE41DDEFE3C00359CC7 /* CDCameraOperatorController.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		19203BE51DDEFE3C00359CC7 /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+				19203BE61DDEFE3C00359CC7 /* LLSimpleCamera */,
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		19203BE61DDEFE3C00359CC7 /* LLSimpleCamera */ = {
+			isa = PBXGroup;
+			children = (
+				19203BE71DDEFE3C00359CC7 /* images */,
+				19203BEF1DDEFE3C00359CC7 /* LLSimpleCamera+Helper.h */,
+				19203BF01DDEFE3C00359CC7 /* LLSimpleCamera+Helper.m */,
+				19203BF11DDEFE3C00359CC7 /* LLSimpleCamera.h */,
+				19203BF21DDEFE3C00359CC7 /* LLSimpleCamera.m */,
+				19203BF31DDEFE3C00359CC7 /* UIImage+FixOrientation.h */,
+				19203BF41DDEFE3C00359CC7 /* UIImage+FixOrientation.m */,
+				19203BF51DDEFE3C00359CC7 /* Utility */,
+			);
+			path = LLSimpleCamera;
+			sourceTree = "<group>";
+		};
+		19203BE71DDEFE3C00359CC7 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				19203BE81DDEFE3C00359CC7 /* camera-flash.png */,
+				19203BE91DDEFE3C00359CC7 /* camera-flash@2x.png */,
+				19203BEA1DDEFE3C00359CC7 /* camera-switch.png */,
+				19203BEB1DDEFE3C00359CC7 /* camera-switch@2x.png */,
+				19203BEC1DDEFE3C00359CC7 /* cancel.png */,
+				19203BED1DDEFE3C00359CC7 /* cancel@2x.png */,
+				19203BEE1DDEFE3C00359CC7 /* cancel@3x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		19203BF51DDEFE3C00359CC7 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				19203BF61DDEFE3C00359CC7 /* UIImage+Crop.h */,
+				19203BF71DDEFE3C00359CC7 /* UIImage+Crop.m */,
+				19203BF81DDEFE3C00359CC7 /* UIImage+Resize.h */,
+				19203BF91DDEFE3C00359CC7 /* UIImage+Resize.m */,
+				19203BFA1DDEFE3C00359CC7 /* ViewUtils.h */,
+				19203BFB1DDEFE3C00359CC7 /* ViewUtils.m */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		194E292B1DEBFC1E00AA659C /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				194E292C1DEBFC3B00AA659C /* CDAlertDTO.h */,
+				194E292D1DEBFC3B00AA659C /* CDAlertDTO.m */,
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
+		197640F41DE2932A006A25DC /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				197640F91DE29379006A25DC /* CDCameraStyleDTO.h */,
+				197640FA1DE29379006A25DC /* CDCameraStyleDTO.m */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		197640F51DE29353006A25DC /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				197640F61DE2935D006A25DC /* CDBaseDTO.h */,
+				197640F71DE2935D006A25DC /* CDBaseDTO.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		19AEA2441DE2E7E100F423A1 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				19AEA2481DE2EA4B00F423A1 /* UIView */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		19AEA2481DE2EA4B00F423A1 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				19AEA24C1DE2EA5700F423A1 /* Base */,
+				19AEA2491DE2EA4B00F423A1 /* CDButtonStyle.h */,
+				19AEA24A1DE2EA4B00F423A1 /* CDButtonStyle.m */,
+				19AEA2501DE2FE5A00F423A1 /* CDCameraButtonStyle.h */,
+				19AEA2511DE2FE5A00F423A1 /* CDCameraButtonStyle.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		19AEA24C1DE2EA5700F423A1 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				19AEA24D1DE2EA6A00F423A1 /* CDViewStyle.h */,
+				19AEA24E1DE2EA6A00F423A1 /* CDViewStyle.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		19CA61891DDC4B17005FE1B7 /* DTO */ = {
+			isa = PBXGroup;
+			children = (
+				19AEA2441DE2E7E100F423A1 /* Common */,
+				197640F51DE29353006A25DC /* Base */,
+				197640F41DE2932A006A25DC /* Camera */,
+				19CA618A1DDC4B17005FE1B7 /* File */,
+				194E292B1DEBFC1E00AA659C /* Alert */,
+			);
+			path = DTO;
+			sourceTree = "<group>";
+		};
+		19CA618A1DDC4B17005FE1B7 /* File */ = {
+			isa = PBXGroup;
+			children = (
+				19CA618B1DDC4B17005FE1B7 /* CDFileDTO.h */,
+				19CA618C1DDC4B17005FE1B7 /* CDFileDTO.m */,
+			);
+			path = File;
+			sourceTree = "<group>";
+		};
+		19CA618D1DDC4B17005FE1B7 /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				19E3701F1DDE986E00248026 /* Base */,
+				A4EB56F51DDF15AC0025F79C /* AddressBookWidget.h */,
+				A4EB56F61DDF15AC0025F79C /* AddressBookWidget.m */,
+				19203BA11DDEFB7500359CC7 /* CDCameraWidget.h */,
+				19203BA21DDEFB7500359CC7 /* CDCameraWidget.m */,
+				6C99F27C1DE04C86003F7CEF /* CDNavTitleWidget.h */,
+				6C99F27D1DE04C86003F7CEF /* CDNavTitleWidget.m */,
+				193B67231DEBCA5D00328B9B /* CDAlertWidget.h */,
+				193B67241DEBCA5D00328B9B /* CDAlertWidget.m */,
+			);
+			path = Widget;
+			sourceTree = "<group>";
+		};
+		19CA61951DDC4B8F005FE1B7 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				6C99F2781DE04AF4003F7CEF /* Address */,
+				6C60FD441DDF427F0062CA60 /* Logger */,
+				51AAEC4A1DDF189400939E23 /* HomePage */,
+				19E3701B1DDE985400248026 /* Base */,
+				19CA61981DDC4B8F005FE1B7 /* File */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		19CA61981DDC4B8F005FE1B7 /* File */ = {
+			isa = PBXGroup;
+			children = (
+				19CA61991DDC4B8F005FE1B7 /* CDRemoveFileContainerAPI.h */,
+				19CA619A1DDC4B8F005FE1B7 /* CDRemoveFileContainerAPI.m */,
+				19CA619B1DDC4B8F005FE1B7 /* CDSaveFileContainerAPI.h */,
+				19CA619C1DDC4B8F005FE1B7 /* CDSaveFileContainerAPI.m */,
+				19E370261DDEA0EA00248026 /* CDGetFileContainerAPI.h */,
+				19E370271DDEA0EA00248026 /* CDGetFileContainerAPI.m */,
+			);
+			path = File;
+			sourceTree = "<group>";
+		};
+		19E3701B1DDE985400248026 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				19E3701C1DDE985400248026 /* CDBaseContainerAPI.h */,
+				19E3701D1DDE985400248026 /* CDBaseContainerAPI.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		19E3701F1DDE986E00248026 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				19E370201DDE986E00248026 /* CDBaseWidget.h */,
+				19E370211DDE986E00248026 /* CDBaseWidget.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		51AAEC4A1DDF189400939E23 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				51AAEC4B1DDF189400939E23 /* CDGetHomePageContainerAPI.h */,
+				51AAEC4C1DDF189400939E23 /* CDGetHomePageContainerAPI.m */,
+				51AAEC4D1DDF189400939E23 /* CDSetHomePageContainerAPI.h */,
+				51AAEC4E1DDF189400939E23 /* CDSetHomePageContainerAPI.m */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		6C60FD441DDF427F0062CA60 /* Logger */ = {
+			isa = PBXGroup;
+			children = (
+				6C60FD451DDF42AE0062CA60 /* CDLoggerContainerAPI.h */,
+				6C60FD461DDF42AE0062CA60 /* CDLoggerContainerAPI.m */,
+			);
+			path = Logger;
+			sourceTree = "<group>";
+		};
+		6C99F2781DE04AF4003F7CEF /* Address */ = {
+			isa = PBXGroup;
+			children = (
+				6C99F2791DE04AF4003F7CEF /* AddressBookContainerAPI.h */,
+				6C99F27A1DE04AF4003F7CEF /* AddressBookContainerAPI.m */,
+			);
+			path = Address;
+			sourceTree = "<group>";
+		};
+		6C99F27F1DE0517E003F7CEF /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6C99F2831DE051CB003F7CEF /* CDHybridBaseViewController.h */,
+				6C99F2841DE051CB003F7CEF /* CDHybridBaseViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C556F361AC0141D55F40EF9F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9856B2E2B0700525A5C92E72 /* libPods-CredooHybridFramework.a */,
+				B9674FFE24C392F7F890D994 /* libPods-Sample.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C753F640DC33BCE60B2D5391 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EB320166BF6BBDCAEC8278B1 /* Pods-CredooHybridFramework.debug.xcconfig */,
+				26ACD1901FD46A165895BBE8 /* Pods-CredooHybridFramework.release.xcconfig */,
+				15FEB1074386C029AE47E410 /* Pods-Sample.debug.xcconfig */,
+				974A2D9577FC7AF5F7F30571 /* Pods-Sample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CA3DA18F1DDC271200A855EF /* Sample */ = {
+			isa = PBXGroup;
+			children = (
+				1976410D1DE2D4C2006A25DC /* Custom_camera_bg@2x.png */,
+				CA3DA1931DDC271200A855EF /* AppDelegate.h */,
+				CA3DA1941DDC271200A855EF /* AppDelegate.m */,
+				CA3DA1961DDC271200A855EF /* ViewController.h */,
+				CA3DA1971DDC271200A855EF /* ViewController.m */,
+				6C23358B1DDE1E6A00B42708 /* CustomerVIewController.h */,
+				6C23358C1DDE1E6A00B42708 /* CustomerVIewController.m */,
+				CA3DA1991DDC271200A855EF /* Main.storyboard */,
+				CA3DA19C1DDC271200A855EF /* Assets.xcassets */,
+				CA3DA19E1DDC271200A855EF /* LaunchScreen.storyboard */,
+				CA3DA1A11DDC271200A855EF /* Info.plist */,
+				A4B463D91DE29FB8006B746E /* hybrid */,
+				CA3DA1901DDC271200A855EF /* Supporting Files */,
+			);
+			path = Sample;
+			sourceTree = "<group>";
+		};
+		CA3DA1901DDC271200A855EF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA3DA1911DDC271200A855EF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CAB0A0651DD3142E00325A5B = {
+			isa = PBXGroup;
+			children = (
+				CAB0A0701DD3142E00325A5B /* CredooHybridFramework */,
+				CA3DA18F1DDC271200A855EF /* Sample */,
+				191998D71DE434A7005A2780 /* CredooHybrid */,
+				CAB0A06F1DD3142E00325A5B /* Products */,
+				C753F640DC33BCE60B2D5391 /* Pods */,
+				C556F361AC0141D55F40EF9F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CAB0A06F1DD3142E00325A5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAB0A06E1DD3142E00325A5B /* libCredooHybridFramework.a */,
+				CA3DA18E1DDC271200A855EF /* Sample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAB0A0701DD3142E00325A5B /* CredooHybridFramework */ = {
+			isa = PBXGroup;
+			children = (
+				191998DC1DE43512005A2780 /* Resource.bundle */,
+				CAB0A0711DD3142E00325A5B /* CredooHybridFramework.h */,
+				19CA61A71DDD548E005FE1B7 /* CredooHybridConstant.h */,
+				19203BA41DDEFDD700359CC7 /* Util */,
+				19CA61891DDC4B17005FE1B7 /* DTO */,
+				19CA61951DDC4B8F005FE1B7 /* Service */,
+				19CA618D1DDC4B17005FE1B7 /* Widget */,
+				6C99F27F1DE0517E003F7CEF /* ViewController */,
+			);
+			path = CredooHybridFramework;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CA45A0BE1DE4237800CF11C4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA45A0BF1DE423DC00CF11C4 /* CredooHybridFramework.h in Headers */,
+				CA45A0C01DE423DC00CF11C4 /* CredooHybridConstant.h in Headers */,
+				CA45A0C21DE423DC00CF11C4 /* LLSimpleCamera+Helper.h in Headers */,
+				CA45A0C31DE423DC00CF11C4 /* LLSimpleCamera.h in Headers */,
+				CA45A0C41DE423DC00CF11C4 /* UIImage+FixOrientation.h in Headers */,
+				CA45A0C51DE423DC00CF11C4 /* UIImage+Crop.h in Headers */,
+				CA45A0C61DE423DC00CF11C4 /* UIImage+Resize.h in Headers */,
+				CA45A0C71DE423DC00CF11C4 /* ViewUtils.h in Headers */,
+				CA45A0C81DE423DC00CF11C4 /* CDCustomCameraController.h in Headers */,
+				CA45A0C91DE423DC00CF11C4 /* CDCameraOverlyView.h in Headers */,
+				CA45A0CA1DE423DC00CF11C4 /* CDCameraPreviewController.h in Headers */,
+				CA45A0CB1DE423DC00CF11C4 /* CDCustomCameraMode.h in Headers */,
+				CA45A0CE1DE423DC00CF11C4 /* UIImage+CredooSupport.h in Headers */,
+				CA45A0CF1DE423DC00CF11C4 /* CDViewStyle.h in Headers */,
+				CA45A0D01DE423DC00CF11C4 /* CDButtonStyle.h in Headers */,
+				CA45A0D11DE423DC00CF11C4 /* CDCameraButtonStyle.h in Headers */,
+				CA45A0D21DE423DC00CF11C4 /* CDBaseDTO.h in Headers */,
+				CA45A0D31DE423DC00CF11C4 /* CDCameraStyleDTO.h in Headers */,
+				CA45A0D41DE423DC00CF11C4 /* CDFileDTO.h in Headers */,
+				CA45A0D51DE423DC00CF11C4 /* AddressBookContainerAPI.h in Headers */,
+				CA45A0D61DE423DC00CF11C4 /* CDLoggerContainerAPI.h in Headers */,
+				CA45A0D71DE423DC00CF11C4 /* CDGetHomePageContainerAPI.h in Headers */,
+				CA45A0D81DE423DC00CF11C4 /* CDSetHomePageContainerAPI.h in Headers */,
+				CA45A0D91DE423DC00CF11C4 /* CDBaseContainerAPI.h in Headers */,
+				CA45A0DA1DE423DC00CF11C4 /* CDRemoveFileContainerAPI.h in Headers */,
+				CA45A0DB1DE423DC00CF11C4 /* CDSaveFileContainerAPI.h in Headers */,
+				CA45A0DC1DE423DC00CF11C4 /* CDGetFileContainerAPI.h in Headers */,
+				CA45A0DD1DE423DC00CF11C4 /* CDBaseWidget.h in Headers */,
+				CA45A0DE1DE423DC00CF11C4 /* AddressBookWidget.h in Headers */,
+				194E292E1DEBFC3B00AA659C /* CDAlertDTO.h in Headers */,
+				193B67251DEBCA5D00328B9B /* CDAlertWidget.h in Headers */,
+				CA45A0DF1DE423DC00CF11C4 /* CDCameraWidget.h in Headers */,
+				CA45A0E01DE423DC00CF11C4 /* CDNavTitleWidget.h in Headers */,
+				CA45A0E11DE423DC00CF11C4 /* CDHybridBaseViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		CA3DA18D1DDC271200A855EF /* Sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA3DA1A41DDC271200A855EF /* Build configuration list for PBXNativeTarget "Sample" */;
+			buildPhases = (
+				2ADF3B869CB2984FE6C52905 /* [CP] Check Pods Manifest.lock */,
+				CA3DA18A1DDC271200A855EF /* Sources */,
+				CA3DA18B1DDC271200A855EF /* Frameworks */,
+				CA3DA18C1DDC271200A855EF /* Resources */,
+				163981933D30364FF7529F09 /* [CP] Embed Pods Frameworks */,
+				CD84CF1F90BA0375D5D8AF27 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA3DA1A61DDC272600A855EF /* PBXTargetDependency */,
+			);
+			name = Sample;
+			productName = Sample;
+			productReference = CA3DA18E1DDC271200A855EF /* Sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAB0A06D1DD3142E00325A5B /* CredooHybridFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAB0A0771DD3142E00325A5B /* Build configuration list for PBXNativeTarget "CredooHybridFramework" */;
+			buildPhases = (
+				4C522BB66EF0CED40FB636E8 /* [CP] Check Pods Manifest.lock */,
+				CAB0A06A1DD3142E00325A5B /* Sources */,
+				CAB0A06B1DD3142E00325A5B /* Frameworks */,
+				CAB0A06C1DD3142E00325A5B /* CopyFiles */,
+				BE9ADCDE11D230D7A92BE8A7 /* [CP] Copy Pods Resources */,
+				197641031DE2D282006A25DC /* Resources */,
+				CA45A0BE1DE4237800CF11C4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CredooHybridFramework;
+			productName = CredooHybridFramework;
+			productReference = CAB0A06E1DD3142E00325A5B /* libCredooHybridFramework.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAB0A0661DD3142E00325A5B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = "";
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Credoo;
+				TargetAttributes = {
+					CA3DA18D1DDC271200A855EF = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 5P7EY8HPBE;
+						ProvisioningStyle = Automatic;
+					};
+					CAB0A06D1DD3142E00325A5B = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 5P7EY8HPBE;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CAB0A0691DD3142E00325A5B /* Build configuration list for PBXProject "CredooHybridFramework" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAB0A0651DD3142E00325A5B;
+			productRefGroup = CAB0A06F1DD3142E00325A5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAB0A06D1DD3142E00325A5B /* CredooHybridFramework */,
+				CA3DA18D1DDC271200A855EF /* Sample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		197641031DE2D282006A25DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				197641051DE2D29B006A25DC /* camera-flash.png in Resources */,
+				197641061DE2D29B006A25DC /* camera-flash@2x.png in Resources */,
+				197641071DE2D29B006A25DC /* camera-switch.png in Resources */,
+				197641081DE2D29B006A25DC /* camera-switch@2x.png in Resources */,
+				197641091DE2D29B006A25DC /* cancel.png in Resources */,
+				191998E21DE4379A005A2780 /* takePhoto@3x.png in Resources */,
+				1976410A1DE2D29B006A25DC /* cancel@2x.png in Resources */,
+				1976410B1DE2D29B006A25DC /* cancel@3x.png in Resources */,
+				191998E11DE4379A005A2780 /* takePhoto@2x.png in Resources */,
+				191998DD1DE43512005A2780 /* Resource.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA3DA18C1DDC271200A855EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				191998E31DE43840005A2780 /* Resource.bundle in Resources */,
+				A4B463DA1DE29FB8006B746E /* hybrid in Resources */,
+				CA3DA19D1DDC271200A855EF /* Assets.xcassets in Resources */,
+				CA3DA19B1DDC271200A855EF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		163981933D30364FF7529F09 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sample/Pods-Sample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2ADF3B869CB2984FE6C52905 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4C522BB66EF0CED40FB636E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BE9ADCDE11D230D7A92BE8A7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CredooHybridFramework/Pods-CredooHybridFramework-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD84CF1F90BA0375D5D8AF27 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sample/Pods-Sample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA3DA18A1DDC271200A855EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C23358D1DDE1E6A00B42708 /* CustomerVIewController.m in Sources */,
+				CA3DA1981DDC271200A855EF /* ViewController.m in Sources */,
+				CA3DA1951DDC271200A855EF /* AppDelegate.m in Sources */,
+				CA3DA1921DDC271200A855EF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAB0A06A1DD3142E00325A5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19203BD41DDEFDD700359CC7 /* CDCustomCameraMode.m in Sources */,
+				19203BFE1DDEFE3D00359CC7 /* LLSimpleCamera.m in Sources */,
+				19AEA24B1DE2EA4B00F423A1 /* CDButtonStyle.m in Sources */,
+				6C99F27E1DE04C86003F7CEF /* CDNavTitleWidget.m in Sources */,
+				51AAEC501DDF189400939E23 /* CDSetHomePageContainerAPI.m in Sources */,
+				19AEA2521DE2FE5A00F423A1 /* CDCameraButtonStyle.m in Sources */,
+				19E3701E1DDE985400248026 /* CDBaseContainerAPI.m in Sources */,
+				197640FB1DE29379006A25DC /* CDCameraStyleDTO.m in Sources */,
+				6C60FD471DDF42AE0062CA60 /* CDLoggerContainerAPI.m in Sources */,
+				19E370221DDE986E00248026 /* CDBaseWidget.m in Sources */,
+				19203C011DDEFE3D00359CC7 /* UIImage+Resize.m in Sources */,
+				193B67261DEBCA5D00328B9B /* CDAlertWidget.m in Sources */,
+				19203BA31DDEFB7500359CC7 /* CDCameraWidget.m in Sources */,
+				19203C001DDEFE3D00359CC7 /* UIImage+Crop.m in Sources */,
+				19203BD61DDEFDD700359CC7 /* CDCameraOperatorController.m in Sources */,
+				6C99F2851DE051CB003F7CEF /* CDHybridBaseViewController.m in Sources */,
+				19203C021DDEFE3D00359CC7 /* ViewUtils.m in Sources */,
+				A4EB56F71DDF15AC0025F79C /* AddressBookWidget.m in Sources */,
+				6C99F27B1DE04AF4003F7CEF /* AddressBookContainerAPI.m in Sources */,
+				19CA619E1DDC4B8F005FE1B7 /* CDRemoveFileContainerAPI.m in Sources */,
+				19CA61931DDC4B17005FE1B7 /* CDFileDTO.m in Sources */,
+				19203BFC1DDEFE3C00359CC7 /* CDCameraOperatorController.m in Sources */,
+				19203BD21DDEFDD700359CC7 /* CDCameraPreviewController.m in Sources */,
+				194E292F1DEBFC3B00AA659C /* CDAlertDTO.m in Sources */,
+				19203BD31DDEFDD700359CC7 /* CDCustomCameraController.m in Sources */,
+				197640F81DE2935D006A25DC /* CDBaseDTO.m in Sources */,
+				19E370281DDEA0EA00248026 /* CDGetFileContainerAPI.m in Sources */,
+				51AAEC4F1DDF189400939E23 /* CDGetHomePageContainerAPI.m in Sources */,
+				19CA619F1DDC4B8F005FE1B7 /* CDSaveFileContainerAPI.m in Sources */,
+				19AEA24F1DE2EA6A00F423A1 /* CDViewStyle.m in Sources */,
+				19203C051DDEFE9800359CC7 /* UIImage+CredooSupport.m in Sources */,
+				19203BFD1DDEFE3D00359CC7 /* LLSimpleCamera+Helper.m in Sources */,
+				19203BFF1DDEFE3D00359CC7 /* UIImage+FixOrientation.m in Sources */,
+				19203BD11DDEFDD700359CC7 /* CDCameraOverlyView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA3DA1A61DDC272600A855EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAB0A06D1DD3142E00325A5B /* CredooHybridFramework */;
+			targetProxy = CA3DA1A51DDC272600A855EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA3DA1991DDC271200A855EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA3DA19A1DDC271200A855EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA3DA19E1DDC271200A855EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA3DA19F1DDC271200A855EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA3DA1A21DDC271200A855EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15FEB1074386C029AE47E410 /* Pods-Sample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5P7EY8HPBE;
+				INFOPLIST_FILE = Sample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.credoo.Sample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA3DA1A31DDC271200A855EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 974A2D9577FC7AF5F7F30571 /* Pods-Sample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5P7EY8HPBE;
+				INFOPLIST_FILE = Sample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.credoo.Sample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CAB0A0751DD3142E00325A5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CAB0A0761DD3142E00325A5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAB0A0781DD3142E00325A5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB320166BF6BBDCAEC8278B1 /* Pods-CredooHybridFramework.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 5P7EY8HPBE;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CAB0A0791DD3142E00325A5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26ACD1901FD46A165895BBE8 /* Pods-CredooHybridFramework.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 5P7EY8HPBE;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA3DA1A41DDC271200A855EF /* Build configuration list for PBXNativeTarget "Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA3DA1A21DDC271200A855EF /* Debug */,
+				CA3DA1A31DDC271200A855EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAB0A0691DD3142E00325A5B /* Build configuration list for PBXProject "CredooHybridFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAB0A0751DD3142E00325A5B /* Debug */,
+				CAB0A0761DD3142E00325A5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAB0A0771DD3142E00325A5B /* Build configuration list for PBXNativeTarget "CredooHybridFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAB0A0781DD3142E00325A5B /* Debug */,
+				CAB0A0791DD3142E00325A5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAB0A0661DD3142E00325A5B /* Project object */;
+}

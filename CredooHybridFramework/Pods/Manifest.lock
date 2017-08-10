@@ -1,0 +1,40 @@
+PODS:
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
+  - Rexxar (0.2.1):
+    - Rexxar/Widget (= 0.2.1)
+  - Rexxar/Core (0.2.1)
+  - Rexxar/Widget (0.2.1):
+    - Rexxar/Core
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+
+DEPENDENCIES:
+  - ReactiveCocoa (~> 2.5)
+  - Rexxar (from `https://github.com/xujialiang/rexxar-ios.git`, commit `master`)
+  - YYKit
+
+EXTERNAL SOURCES:
+  Rexxar:
+    :commit: master
+    :git: https://github.com/xujialiang/rexxar-ios.git
+
+CHECKOUT OPTIONS:
+  Rexxar:
+    :commit: master
+    :git: https://github.com/xujialiang/rexxar-ios.git
+
+SPEC CHECKSUMS:
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+  Rexxar: 2afc81fac1c5b16f1df9e60cee8e6feb411de111
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+
+PODFILE CHECKSUM: 5e83474ce99c6c53c9370a0e3f2c9c68be18ee73
+
+COCOAPODS: 1.1.1
